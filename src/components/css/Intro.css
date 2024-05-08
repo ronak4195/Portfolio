@@ -1,0 +1,112 @@
+.food:hover .text {
+  display: none;
+}
+
+.text {
+  background-color: black;
+  color: white;
+  display: grid;
+}
+
+.food:hover .image {
+  display: grid;
+}
+
+.image {
+  display: none;
+}
+
+.webseries:hover .text {
+  display: none;
+}
+
+.webseries:hover .image {
+  display: grid;
+}
+
+.movies:hover .text {
+  display: none;
+}
+
+.movies:hover .image {
+  display: grid;
+}
+
+.songs:hover .text {
+  display: none;
+}
+
+.songs:hover .image {
+  display: grid;
+}
+
+.introBox {
+  background-color: #e3f2fd;
+  width: 50vw;
+  display: grid;
+  justify-items: center;
+  align-items: center;
+}
+
+.introPara {
+  font-size: 0.8rem;
+}
+
+.introCardList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.food {
+  width: 64%;
+  height: 62%;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+}
+.food .image {
+  border-radius: 10%;
+  height: clamp(15px,34vh,200px);
+}
+
+.smallCardGroup {
+  width: 32%;
+  height: 62%;
+}
+
+.webseries,
+.movies {
+  width: 100%;
+  height: 48%;
+}
+.webseries .image,
+.movies .image {
+  border-radius: 10%;
+  width: clamp(130px,11vw, 200px);
+}
+.webseries .text{
+  font-size: clamp(1px, 5vw, 28px);
+}
+
+.songs {
+  width: 100%;
+  height: 18vh;
+}
+.songs .image {
+  border-radius: 10%;
+  width: 100%;
+}
+@media screen and (max-width: 1225px) {
+  .introBox {
+    width: 95vw;
+  }
+  .introPara {
+    font-size: 20px;
+    padding: 2vh 1vw;
+  }
+  .introCatchLine {
+    font-size: 24px;
+    font-weight: 600;
+    padding: 2vh 0;
+  }
+}

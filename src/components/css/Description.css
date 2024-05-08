@@ -1,0 +1,28 @@
+.descriptionNav{
+    display: grid;
+    color: black;
+}
+
+.descriptionContactProfile{
+    display: flex;
+}
+
+@media screen and (max-width: 1225px){
+    .descriptionNav{
+        display: none;
+    }
+    .descriptionBox{
+        min-width: 100vw;
+    }
+    .descriptionHeading{
+        padding: 2vh 1vw;
+    }
+    .descriptionContactProfile{
+        justify-content: center;
+        align-items: center;
+        padding: 2vh 1vw;
+    }
+    .footerDescription{
+        padding-bottom: 5vh;
+    }
+}

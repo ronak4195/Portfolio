@@ -1,0 +1,122 @@
+*{
+  font-family: GrandSlang Roman, serif;
+  font-size: 28px;
+  margin: 0;
+  background-color: #e3f2fd;
+  
+}
+
+.appContainer{
+  display: flex;
+  height: 92vh;
+}
+
+.appRoutes{
+  display: grid;
+}
+
+@media screen and (max-width: 1225px){
+  .appContainer{
+    display: grid;
+  }
+  .appRoutes{
+    display: none;
+  }
+}
+.clock{
+  display: grid; 
+  align-content: center;
+}
+
+.clockDetails{
+  background-color : black;
+  color : #e3f2fd;
+  padding : 1.5px 5px;
+  font-size: 0.8rem;
+}
+
+.navbarLogo{
+  text-decoration: none;
+  display: grid;
+  align-items: center;
+}
+
+.descriptionBox{
+  background-color: #e3f2fd;  
+  width: 50vw;
+  display: grid;
+  align-items: center;
+}
+
+.descriptionHeading{
+  font-family: monospace;
+}
+
+.introCard{
+  background-color: black;
+  color: white;
+  border-radius: 1.5rem;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 50%;
+  margin: 0.25rem;
+}
+
+.introCardList{
+  height: 60vh;
+  display: grid;
+  width: 100%;
+}
+  /* justify-content: space-between;
+  align-items: center;
+} */
+
+/* .songs{
+  width: 100%;
+  height: 20%;
+}
+.books{
+  width: 100%;
+  height: 20%;
+} */
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

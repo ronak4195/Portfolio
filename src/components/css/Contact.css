@@ -1,0 +1,57 @@
+.contactCard{
+    display: grid;
+    background-color: black;
+    /* min-height: 90vh; */
+    min-width: 47vw;
+    border-radius: 20px;
+    padding: 10vh 0;
+    margin: 2vh 0;
+}
+.contactBox{
+    background-color: #e3f2fd; 
+    width: 50vw;
+}
+
+
+.inputBar{
+    height: 5vh;
+    margin: 1vh 5vw;
+}
+
+.message{
+    height: 25vh;
+    margin: 1vh 5vw;
+}
+
+.sendButton{
+    margin: 2vh 5vw;
+    background-color: black;
+    display: grid;
+    justify-items:flex-end;
+    border-radius: 20px;
+}
+
+.button{
+    background-color: #4f646f;
+    color: #e3f2fd;
+    border-radius: 15px;
+}
+.button:hover{
+    background-color: #e3f2fd;
+    color: #4f646f;
+}
+
+@media screen and (max-width: 1225px) {
+    .contactBox{
+        width: 95vw;
+    }
+    .contactCard{
+        width: 100%;
+    }
+    .inputBar{
+        width: 87%;
+    }
+    .contactHeading{
+        padding: 2vh 1vw;
+    }
+}

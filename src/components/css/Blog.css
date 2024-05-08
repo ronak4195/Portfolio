@@ -1,0 +1,31 @@
+.blog-card{
+    background-color: black;
+    color: gray;
+    padding: 5vh 3vw;
+    border-radius: 15px;
+    margin: 2vh 0;
+}
+
+.blog-date, .blog-title, .blog-description{
+    background-color: black;
+}
+.blog-description{
+    font-size: large;
+    color: #cacaca;
+}
+.blog-title{
+    color: white;
+}
+.blogBox{
+    background-color: #e3f2fd;
+    width : 50vw;
+}
+
+@media screen and (max-width: 1225px) {
+    .blogBox{
+        width : 95%;
+    }
+    .blogTitle{
+        padding: 2vh 1vw;
+    }
+}

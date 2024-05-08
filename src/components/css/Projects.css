@@ -1,0 +1,77 @@
+.project-card {
+  background-color: black;
+  color: white;
+  min-width: 30vw;
+  min-height: 10vh;
+  text-decoration: none;
+  margin: 15px 0;
+  padding: 0 1em;
+  border-radius: 10px;
+}
+.projectAnchor{
+  text-decoration: none;
+}
+.project-title {
+  background-color: black;
+  display: grid;
+  color: white;
+  padding: 0.5em 0 0 0;
+  align-items: center;
+  font-size: larger;
+  /* border-radius: 10px; */
+}
+
+.project-description {
+  background-color: black;
+  display: grid;
+  color: #e3e3e3;
+  justify-content: center;
+  align-items: center;
+  /* border-radius: 10px; */
+  font-size: large;
+  padding: 0 0 1em 0;
+}
+
+.projectDetailLeft {
+  min-width: 15vw;
+  background-color: black;
+  color: white;
+  display: grid;
+}
+
+.projectDate {
+  background-color: black;
+  font-size: medium;
+  padding-bottom: 1.5vh;
+  color: #cacaca;
+}
+.projectTech,
+.projectGithubAnchor {
+  background-color: black;
+}
+.projectTechTab {
+    color: black;
+    border-radius: 15px;
+    margin: 1vh 1vw 1vh 0;
+    padding: 1vh 1vw;
+    font-size: 20px;
+    font-weight: 1000;
+    display: grid;
+    align-items: center;
+  }
+  .projectTech {
+    display: flex;
+    background-color: black;
+    flex-wrap: wrap;
+    padding: 1vh 1vw 2vh 0vw;
+  }
+@media screen and (max-width: 1225px) {
+  .projectDetailLeft {
+    min-width: 30%;
+    background-color: black;
+    color: white;
+    display: grid;
+    align-items: center;
+  }
+
+}
