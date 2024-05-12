@@ -13,6 +13,9 @@
 
 .appRoutes{
   display: grid;
+  overflow-y: auto; 
+  position: relative;
+  scrollbar-width: none;
 }
 
 @media screen and (max-width: 1225px){
@@ -21,6 +24,7 @@
   }
   .appRoutes{
     display: none;
+    position: static;
   }
 }
 .clock{

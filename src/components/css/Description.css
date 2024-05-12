@@ -1,3 +1,8 @@
+.descriptionBox{
+    overflow: hidden;
+    position: relative;
+}
+
 .descriptionNav{
     display: grid;
     color: black;
@@ -13,6 +18,8 @@
     }
     .descriptionBox{
         min-width: 100vw;
+        overflow: visible;
+        position: static;
     }
     .descriptionHeading{
         padding: 2vh 1vw;

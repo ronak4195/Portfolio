@@ -2,14 +2,14 @@
     display: grid;
     background-color: black;
     /* min-height: 90vh; */
-    min-width: 47vw;
+    min-width: 45vw;
     border-radius: 20px;
     padding: 10vh 0;
     margin: 2vh 0;
 }
 .contactBox{
     background-color: #e3f2fd; 
-    width: 50vw;
+    width: 45vw;
 }
 
 

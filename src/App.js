@@ -16,7 +16,7 @@ function App() {
       <div style={{ padding: "0 2vw" }}>
         <BrowserRouter>
           <Navbar />
-          <section className="appContainer">
+          <div className="appContainer">
             <Description />
 
             <div className="appRoutes">
@@ -27,7 +27,7 @@ function App() {
               <Route exact path="/contact" element={<Contact />}></Route>
             </Routes>
               </div>
-          </section>
+          </div>
         </BrowserRouter>
       </div>
     </>
