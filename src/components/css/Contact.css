@@ -8,7 +8,11 @@
     margin: 2vh 0;
 }
 .contactBox{
+<<<<<<< HEAD
+    background-color: #F7F7F7; 
+=======
     background-color: #e3f2fd; 
+>>>>>>> 3949d9455c3a5ba74f252b74716249de571e1681
     width: 45vw;
 }
 
@@ -33,11 +37,19 @@
 
 .button{
     background-color: #4f646f;
+<<<<<<< HEAD
+    color: #F7F7F7;
+    border-radius: 15px;
+}
+.button:hover{
+    background-color: #F7F7F7;
+=======
     color: #e3f2fd;
     border-radius: 15px;
 }
 .button:hover{
     background-color: #e3f2fd;
+>>>>>>> 3949d9455c3a5ba74f252b74716249de571e1681
     color: #4f646f;
 }
 
