@@ -1,17 +1,11 @@
 .blog-card{
-<<<<<<< HEAD
     background-color: #000000;
-=======
-    background-color: black;
-    color: gray;
->>>>>>> 3949d9455c3a5ba74f252b74716249de571e1681
     padding: 5vh 3vw;
     border-radius: 15px;
     margin: 2vh 0;
 }
 
 .blog-date, .blog-title, .blog-description{
-<<<<<<< HEAD
     background-color: #000000;
 }
 .blog-description{
@@ -23,19 +17,6 @@
 }
 .blogBox{
     background-color: #F7F7F7;
-=======
-    background-color: black;
-}
-.blog-description{
-    font-size: large;
-    color: #cacaca;
-}
-.blog-title{
-    color: white;
-}
-.blogBox{
-    background-color: #e3f2fd;
->>>>>>> 3949d9455c3a5ba74f252b74716249de571e1681
     width : 45vw;
 }
 

@@ -2,13 +2,9 @@
   font-family: GrandSlang Roman, serif;
   font-size: 28px;
   margin: 0;
-<<<<<<< HEAD
   background-color: #F7F7F7;
   /* background-color: #F7F7F7; */
-=======
-  background-color: #e3f2fd;
-  
->>>>>>> 3949d9455c3a5ba74f252b74716249de571e1681
+
 }
 
 .appContainer{
@@ -39,11 +35,7 @@
 
 .clockDetails{
   background-color : black;
-<<<<<<< HEAD
   color : #F7F7F7;
-=======
-  color : #e3f2fd;
->>>>>>> 3949d9455c3a5ba74f252b74716249de571e1681
   padding : 1.5px 5px;
   font-size: 0.8rem;
 }
@@ -55,11 +47,7 @@
 }
 
 .descriptionBox{
-<<<<<<< HEAD
   background-color: #F7F7F7;  
-=======
-  background-color: #e3f2fd;  
->>>>>>> 3949d9455c3a5ba74f252b74716249de571e1681
   width: 50vw;
   display: grid;
   align-items: center;
